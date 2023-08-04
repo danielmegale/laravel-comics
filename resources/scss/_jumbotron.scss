@@ -1,8 +1,9 @@
-div{
-    background-color:#0282F9;
-    img{
-        height: 50px;
-    }
+#jumbotron{
+    div{
+        background-color:#0282F9;
+        img{
+            height: 50px;
+        }
     figure{
         display: flex;
         justify-content: space-between;
@@ -20,4 +21,5 @@ div{
 }
 figure{
     height: 100%;
+}
 }
