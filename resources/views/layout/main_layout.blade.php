@@ -30,6 +30,9 @@
             </nav>
         </header>
     </section>
+    {{-- jumbotron --}}
+    <section id="jumbotron"></section>
+    <div class="blue-bar"></div>
     @yield('main')
     {{-- Footer --}}
     <section id="footer">

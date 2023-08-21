@@ -11,7 +11,7 @@ $comics = config('comics');
                 @foreach ($comics as $comic)
                     <div>
                         <div class="card-container">
-                            <img src="{{ $comic['thumb'] }}">
+                            <a href=""><img src="{{ $comic['thumb'] }}"></a>
                         </div>
                         <figcaption>{{ $comic['series'] }}</figcaption>
                     </div>
@@ -20,7 +20,7 @@ $comics = config('comics');
         </main>
     </section>
     {{-- Jumbotron --}}
-    <section id="jumbotron">
+    <section id="adv">
         <div class="height">
             <figure class="container">
                 <div class="row">
